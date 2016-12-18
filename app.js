@@ -1,3 +1,3 @@
-document.write('WELCOME TO MY HOUSE');
+document.write('WELCOME TO THE APOCALYPSE');
 
 console.log('app loaded');
