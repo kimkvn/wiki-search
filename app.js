@@ -1,3 +1,5 @@
-document.write('HELLO NANCY');
+require('./logger')
+
+document.write('HELLO ALeeezzz');
 
 console.log('app loaded');
