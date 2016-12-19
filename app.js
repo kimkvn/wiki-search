@@ -1,5 +1,8 @@
-require('./logger')
+import React from "react";
+import ReactDOM from "react-dom";
+import Hello from "./hello";
 
-document.write('HELLO ALeeezzz');
-
-console.log('app loaded');
+ReactDOM.render(
+  <Hello name="World" />,
+  document.body
+);

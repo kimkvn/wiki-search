@@ -4,7 +4,7 @@
   "description": "Tool for searching and previewing wikipedia articles",
   "main": "app.js",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server --inline"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,9 @@
     "node-libs-browser": "^2.0.0",
     "strip-loader": "^0.1.2",
     "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
   }
 }
