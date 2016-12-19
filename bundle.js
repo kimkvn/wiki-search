@@ -44,7 +44,7 @@
 /* 0 */
 /***/ function(module, exports) {
 
-	document.write('WELCOME TO THE APOCALYPSE');
+	document.write('hello world');
 
 	console.log('app loaded');
 
